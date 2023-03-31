@@ -1,7 +1,11 @@
 package Vacation;
 
-import java.util.Date;
+import lombok.Getter;
+import lombok.Setter;
 
+import java.util.Date;
+@Getter
+@Setter
 class Booking extends Vacation {
 
     int bookingID;

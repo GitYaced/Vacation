@@ -1,5 +1,10 @@
 package Vacation;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 class Activities extends Booking{
 
     String activityName;

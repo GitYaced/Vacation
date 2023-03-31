@@ -1,7 +1,10 @@
 package Vacation;
 
+import lombok.Getter;
+import lombok.Setter;
 import java.util.Date;
-
+@Getter
+@Setter
 class Accomodation extends Booking {
 
     String accommodationName;
