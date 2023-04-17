@@ -12,11 +12,14 @@ public class Vacation {
     String destination;
     Date startDate;
     Date endDate;
-    double price;
-    String accommodations;
-    String activities;
-    String transportation; //flight, rental car
-    String bookingStatus; //confirmed, pending, cancelled
+    double budget;
+    String vacationStatus; //confirmed, pending, cancelled
+    
+    make a constructor startdate and enddate budget vacationStatus
+        void entervacationname scanner class to get information from user.
+        
+        
+    
 }
 
 
