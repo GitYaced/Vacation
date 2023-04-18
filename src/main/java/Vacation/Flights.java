@@ -15,8 +15,19 @@ class Flights extends Booking {
     Date departureDateTime;
     String arrivalDateTime;
     float flightDuration;
-    String flightStatus;
-    String cabinClass;
     double price;
-    boolean seatAvailabilty; //probably a bit too much
+
+    Flights() {
+//        constructor that takes all these parameters
+    }
+
+    String payment(){
+
+        return "";
+    }
+
+    @Override
+    void bookingDetails() {
+        super.bookingDetails();
+    }
 }

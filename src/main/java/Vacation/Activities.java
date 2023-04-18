@@ -3,20 +3,29 @@ package Vacation;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.Date;
+
 @Getter
 @Setter
-class Activities extends Booking{
+class Activities extends Booking {
 
     String activityName;
     String description;
     String location;
-    int duration;
-    double cost;
-    int capacity; //maximum number of people who can participate in the activity
-    String [] schedule; // an array or list of Date or Time variables to hold the schedule of the activity such as start and end times or dates
-    int ageRestriction;
-    boolean equipmentNeeded;
-    String instructor;
+    Date date; // an array or list of Date or Time variables to hold the schedule of the activity such as start and end times or dates
 
+    Activities() {
+
+//    constructor which returns something
+
+
+    }
+
+    void budgetAllocated() {
+
+//        overall budget and how much you want to allocate
+
+    }
 }
 

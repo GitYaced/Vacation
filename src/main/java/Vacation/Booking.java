@@ -12,12 +12,24 @@ class Booking extends Vacation {
     Date bookingDate;
     String customerName;
     String customerEmail;
-    String bookingStatus;
-    String paymentStatus;
-    String bookingType;
-    String bookingDetails;
+    boolean bookingStatus; //yes or no
+    String bookingType;  //accomodation, activities, flights and food
     double bookingCost;
     String paymentMethod;
 
 
+    Booking(){
+//        constructor that  returns id,date,cstnrname,email,status,type
+
+    }
+            void bookingDetails(){
+
+            };
+
+    String payment(){
+
+//        2 parameters cost and payment paymentMethod
+//                returns if booking was succesful
+        return "";
+    }
 }
